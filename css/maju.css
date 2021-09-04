@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    overflow: hidden;
+}
+
+.bg-maju {
+    background: linear-gradient(to bottom left, #000, #800000);
+    height: 200vh;
+    color: #fff;
+}
+.bg-light {
+    background: linear-gradient(to bottom left, #ffffff, #ffffff);
+    height: 200vh;
+    color: #000;
+    
+}
+.bg-dark {
+    background: #000;
+    height: 200vh;
+    color: #fff;
+}
+.mt-n4 {
+    margin-top: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bebas Neue', cursive;
+}
+#content {
+    margin-top: 10% !important;
+}
+
+@media (max-width: 575.98px) {
+    #content {
+        margin-top: 0 !important;
+    }
+}

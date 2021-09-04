@@ -6,11 +6,101 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="favicon" href="img/pwa72.png">
         <link rel="manifest" href="manifest.json">
+        <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/maju.css">
         <title>Meu site PWA</title>
     </head>
 
     <body>
         <h2>PWA</h2>
+        <div class="jumbotron jumbotron-fluid bg-maju">
+            <div class="container">
+    
+                <div class="row justify-content-center mt-n4">
+                    <div class="col-3 col-sm-2 col-md-1">
+                        <img class="img-fluid" src="img/logo.jpg" alt="maju">
+                    </div>
+                    <div class="col-9 col-sm-10 col-md-11">
+                        <h1 class="text-right mt-2 d-none d-sm-block">
+                            Maria Julia Serchiari
+                        </h1>
+                        <h4 class="text-right mt-4 mr-3 d-block d-sm-none">
+                            maju
+                        </h4>
+                    </div>
+                </div>
+    
+                <div id="content" class="row justify-content-center mt-5">
+                    <div class="col-6 col-sm-4 col-md-2 mt-5 mt-sm-4 mt-md-0">
+                        <a href="about">
+                            <img class="img-fluid" src="img/about.jpg" alt="Sobre">
+                            <h5 class="text-center">Who am I?</h5>
+                        </a>
+                    </div>
+                    <div class="col-6 offset-sm-1 col-sm-4 offset-md-1 col-md-2 mt-5 mt-sm-4 mt-md-0">
+                        <a href="work">
+                            <img class="img-fluid" src="img/work.jpg" alt="Sobre">
+                            <h5 class="text-center">Works</h5>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-4 offset-md-1 col-md-2 mt-5 mt-sm-4 mt-md-0">
+                        <a href="client">
+                            <img class="img-fluid" src="img/client.jpg" alt="Sobre">
+                            <h5 class="text-center">Partners</h5>
+                        </a>
+                    </div>
+                    <div class="col-6 offset-sm-1 col-sm-4 offset-md-1 col-md-2 mt-5 mt-sm-4 mt-md-0">
+                        <a href="contact">
+                            <img class="img-fluid" src="img/contact.jpg" alt="Sobre">
+                            <h5 class="text-center">Contacts</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary">ORIGINAL</button>
+                      <button class="btn btn-light">LIGHT</button>
+                      <button class="btn btn-dark">DARK</button>
+                    </div>
+                  </div>
+              </div>
+    
+              <div class="container-fluid border-top fixed-bottom">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center">
+                            All the rights reserved. <br> Developed by Mj
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Janela modal -->
+        <div class="modal fade" id="modal-info" role="dialog" aria-labelledby="information" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Tittle</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi quidem asperiores ipsa neque tenetur libero facere, corporis et magni pariatur dignissimos obcaecati voluptate consequuntur ipsam provident dolor odio doloribus quaerat.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery/load-page.js"></script>
+        <script src="js/jquery/tema.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
